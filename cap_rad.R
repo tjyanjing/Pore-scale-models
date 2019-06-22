@@ -1,5 +1,5 @@
 # Calculate capillary radius ['mu' m], i.e. radius of curvature of the liquid-vapor interface, from the water potenial [MPa]
-# Reference: Young-Laplacee quation
+# Reference: Young-Laplacee equation
 
 # input: water potenial [MPa]
 # output: capilary radius ['mu' m]  
