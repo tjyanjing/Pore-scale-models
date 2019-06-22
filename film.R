@@ -1,8 +1,8 @@
-# Calculate adsorptive water film thickness [mm] from the water potenial [MPa]
+# Calculate adsorptive water film thickness [mm] from the water potenial [-MPa]
 
 # Reference: Tuller, M., Or, D., & Dudley, L. M. (1999). Adsorption and capillary condensation in porous media: Liquid retention and interfacial configurations in angular pores. Water Resources Research, 35(7), 1949–1964. https://doi.org/10.1029/1999WR900098
 
-# input: water potenial [MPa]
+# input: water potenial [-MPa]
 # output: film thickness [mm]
 film <- function(wp){
   Asvl = -1.9e-19 # Hamaker constant [J]
